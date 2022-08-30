@@ -10,7 +10,4 @@ RUN cd /opt/tomcat && tar -xvf apache-tomcat-8.5.82.tar.gz
 RUN yum install git -y
 RUN mkdir /opt/santhosh
 RUN cd /opt/santhosh && git clone https://github.com/San12334/Devops.git
-RUN cp context.xml tomcat:/usr/local/tomcat/webapps/manager/META-INF/
-RUN cp tomcat-users.xml tomcat:/usr/local/tomcat/conf/
-
 
