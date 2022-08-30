@@ -8,5 +8,5 @@ RUN cd /opt/Tomcat && wget FROM https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82
 RUN cd /opt/Tomcat && tar -xvf apache-tomcat-8.5.82.tar.gz
 RUN git config --global user.name "DevOps Training"
 RUN git config --global user.email "polarapuprasad@gmail.com"
-RUN cd /opt && git clone https://github.com/polarapu/batch68.git
+RUN cd /opt && git clone https://github.com/San12334/Dev22.git
 
