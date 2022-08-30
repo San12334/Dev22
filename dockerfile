@@ -1,5 +1,5 @@
 
-FROM centos
+FROM centos:centos7.9.2009
 MAINTAINER "santhosh"
 RUN yum install java -y
 RUN yum install maven -y
