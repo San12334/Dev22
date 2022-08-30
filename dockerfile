@@ -1,7 +1,8 @@
 
 FROM centos
 MAINTAINER "santhosh"
-RUN mkdir /opt/Tomcat
-RUN cd /opt/Tomcat && wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.82/bin/apache-tomcat-8.5.82.tar.gz
-RUN cd /opt/Tomcat && tar -xvf apache-tomcat-8.5.82.tar.gz
+RUN mkdir /opt/tomcat
+RUN mkdir /opt/hari
+RUN cd /opt/tomcat && wget https://downloads.apache.org/tomcat/tomcat-9/v9.0.31/bin/apache-tomcat-9.0.31.tar.gz
+RUN cd /opt/tomcat && tar -xvf apache-tomcat-9.0.31.tar.gz
 
