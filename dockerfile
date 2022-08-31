@@ -1,4 +1,4 @@
-FROM centos7.9.2009
+FROM centos:centos7.8.2003
 MAINTAINER "Santhosh"
 RUN yum install java -y
 RUN yum install git -y
